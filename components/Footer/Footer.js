@@ -4,7 +4,6 @@ import { FaPhoneAlt } from 'react-icons/fa';
 import { HiMail } from 'react-icons/hi';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
-
 import { AiFillFacebook } from 'react-icons/ai';
 
 import Image from 'next/image';
@@ -26,13 +25,13 @@ export default function Footer() {
                             <h4><FaPhoneAlt className='icon-tittle-footer' /><strong>¿Necesitas ayuda?</strong></h4>
                             <div className='flex-brip'>
                                 <a target="_blank" href="https://api.whatsapp.com/send/?phone=5114800982&amp;text&amp;type=phone_number&amp;app_absent=0">
-                                    <img width={32} height={18} src="./icon-peru.png" />
+                                    <Image width={32} height={18} src="https://maxiviajes.com.ar/media/icon-peru.png" />
                                     +51 14800982
                                 </a>
                             </div>
                             <div className='flex-brip'>
                                 <a target="_blank" href="https://api.whatsapp.com/send/?phone=5491152632057&amp;text&amp;type=phone_number&amp;app_absent=0">
-                                    <img width={32} height={34} src="./icon-arg.svg" />
+                                    <Image width={32} height={34} src="https://maxiviajes.com.ar/media/icon-arg.svg" />
                                     +54 1152632057
                                 </a>
                             </div>

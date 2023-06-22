@@ -1,5 +1,5 @@
 import './nosotros.css'
-
+import Image from 'next/image'
 import Dropdown from './dropdown'
 
 export default function Nosotros() {
@@ -14,7 +14,7 @@ export default function Nosotros() {
                 </div>
                 <div className='child-container-nosotros'>
                     <div className='img-preg-frecuentes'>
-                        <img width={350} height={420} src='./img-preg-frecuentes.jpg' />
+                        <Image width={350} height={420} src='https://maxiviajes.com.ar/media/img-preg-frecuentes.jpg' />
                     </div>
                     <Dropdown />
                 </div>
