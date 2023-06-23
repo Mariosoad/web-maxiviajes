@@ -4,6 +4,7 @@ import ActiveFrames from '@/components/ActiveFrame'
 import Hero from './hero/hero'
 import Promo from './promo/Promo'
 import Info from './info/info'
+import Tour from './tours/tour'
 import Nosotros from './nosotros/nosotros'
 
 export default function Home() {
@@ -21,6 +22,10 @@ export default function Home() {
 
       <section id="Info">
         <Info />
+      </section>
+
+      <section id="Tour">
+        <Tour />
       </section>
 
       <section id="Nosotros">
