@@ -43,7 +43,7 @@ export default function Hero() {
                 {slides.map(({image, tittle, index }) => (
                     <SwiperSlide>
                         <div className='brip-hero-gradient'></div>
-                        <Image fill className='brip-hero-slide-img' src={image} />
+                        <Image width={1600} height={800} quality={100} className='brip-hero-slide-img' src={image} />
                         <h1 className='brip-hero-tittle'>{tittle}</h1>
                     </SwiperSlide>
                 ))}
