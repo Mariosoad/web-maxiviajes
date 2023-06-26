@@ -19,15 +19,15 @@ export default function Home() {
       <section id="Promos">
         <Promo />
       </section>
-
+      <div className={styles.separateContainers}></div>
       <section id="Info">
         <Info />
       </section>
-
+      <div className={styles.reverseSeparateContainers}></div>
       <section id="Tour">
         <Tour />
       </section>
-
+      <div className={styles.separateContainers}></div>
       <section id="Nosotros">
         <Nosotros />
       </section>

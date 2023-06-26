@@ -10,9 +10,9 @@ export default function Promo() {
             <div id='promociones-briptravel' className='container-promo'>
                 <div className='container-banners'>
                     <div className='promo-tittle-section'>
-                        <h2>Descubre el mundo a tu medida</h2>
-                        <p>Explora nuevos horizontes y despierta tus sentidos. Desde playas paradisíacas 
-                            hasta selvas exuberantes y ciudades vibrantes, Maxi Viajes te lleva a lugares 
+                        <h2>Descubre el <span>mundo</span> a tu medida</h2>
+                        <p>Explora nuevos horizontes y despierta tus sentidos. Desde playas paradisíacas
+                            hasta selvas exuberantes y ciudades vibrantes, Maxi Viajes te lleva a lugares
                             llenos de magia y encanto, donde cada paso es una aventura.</p>
                     </div>
                     <div className='child-container-promo'>

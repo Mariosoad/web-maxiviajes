@@ -22,7 +22,7 @@ export default function Footer() {
                 <div className='child-container-footer'>
                     <div className='container-info-footer'>
                         <div>
-                            <h4><FaPhoneAlt className='icon-tittle-footer' /><strong>¿Necesitas ayuda?</strong></h4>
+                            <h4><FaPhoneAlt className='icon-tittle-footer' /><strong>Atención al cliente</strong></h4>
                             <div className='flex-brip'>
                                 <a target="_blank" href="https://api.whatsapp.com/send/?phone=5114800982&amp;text&amp;type=phone_number&amp;app_absent=0">
                                     <Image width={32} height={18} src="https://maxiviajes.com.ar/media/icon-peru.png" />
@@ -54,7 +54,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="child-footer">
-                    <p>©2023 Briptravel. Todos los derechos reservados. </p>
+                    <p>©2023 Maxi Viajes. Todos los derechos reservados. </p>
                 </div>
             </footer>
         </>

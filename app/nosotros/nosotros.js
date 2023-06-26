@@ -8,13 +8,13 @@ export default function Nosotros() {
             <div id='ayuda-briptravel' className='container-nosotros'>
                 <div className='nosotros-tittle-section'>
                     <h2 data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
-                        Descubre el mundo con <span>Briptravel</span>
+                        Vive tus sueños de <span>viaje</span>
                     </h2>
-                    <p data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Tenga en cuenta todas nuestras recomendaciones y tips a la hora viajar!</p>
+                    <p data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">Descubre el verdadero espíritu de cada destino a través de nuestros tours inolvidables. </p>
                 </div>
                 <div className='child-container-nosotros'>
                     <div className='img-preg-frecuentes'>
-                        <Image width={350} height={420} src='https://maxiviajes.com.ar/media/img-preg-frecuentes.jpg' />
+                        <Image width={850} height={420} src='https://maxiviajes.com.ar/media/caminando-airport.jpg' />
                     </div>
                     <Dropdown />
                 </div>

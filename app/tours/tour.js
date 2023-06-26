@@ -88,44 +88,68 @@ export default function Tour() {
     //         });
     // }, [countryName]);
 
+    const slides = [{
+        image: 'https://maxiviajes.com.ar/media/travel-4.jpg',
+        tittle: 'Encuentra tu vuelo más barato hoy!'
+    }, {
+        image: 'https://maxiviajes.com.ar/media/travel-6.jpg',
+        tittle: 'Encuentra tu vuelo más barato hoy 2!'
+    }, {
+        image: 'https://maxiviajes.com.ar/media/travel-7.jpg',
+        tittle: 'Encuentra tu vuelo más barato hoy 3!'
+    }, {
+        image: 'https://maxiviajes.com.ar/media/travel-4.jpg',
+        tittle: 'Encuentra tu vuelo más barato hoy!'
+    }, {
+        image: 'https://maxiviajes.com.ar/media/travel-6.jpg',
+        tittle: 'Encuentra tu vuelo más barato hoy 2!'
+    }, {
+        image: 'https://maxiviajes.com.ar/media/travel-7.jpg',
+        tittle: 'Encuentra tu vuelo más barato hoy 3!'
+    }, {
+        image: 'https://maxiviajes.com.ar/media/travel-4.jpg',
+        tittle: 'Encuentra tu vuelo más barato hoy!'
+    }, {
+        image: 'https://maxiviajes.com.ar/media/travel-6.jpg',
+        tittle: 'Encuentra tu vuelo más barato hoy 2!'
+    }, {
+        image: 'https://maxiviajes.com.ar/media/travel-7.jpg',
+        tittle: 'Encuentra tu vuelo más barato hoy 3!'
+    }]
+
     return (
         <div className='container-section-tour'>
-            <div className='container-tittle-tour'>
-                <h2> Sumérgete en la cultura y la aventura </h2>
-                <p>Descubre el verdadero espíritu de cada destino a través de nuestros tours inolvidables.</p>
-            </div>
-            <div className='container-slide-tour'>
-                {/* <Swiper
-                    slidesPerView={1.5}
-                    spaceBetween={20}
-                    loop={true}
-                    // autoplay={{
-                    //     delay: 4000,
-                    //     disableOnInteraction: false,
-                    // }}
-                    breakpoints={{
-                        512: {
-                            slidesPerView: 2.5,
-                        },
-                        768: {
-                            slidesPerView: 2.5,
-                        },
-                        1024: {
-                            slidesPerView: 3.5,
-                        },
-                    }}
-                    pagination={{
-                        clickable: true,
-                    }}
-                    modules={[Autoplay, Pagination, Navigation]}
-                >
-                    {slides.map(({ image, tittle, index }) => (
-                        <SwiperSlide>
-                            <Image width={1600} height={800} quality={100} className='brip-hero-slide-img' src={image} />
-                            <h1 className='brip-hero-tittle'>{tittle}</h1>
-                        </SwiperSlide>
-                    ))}
-                </Swiper> */}
+            <div className='child-container-section-tour'>
+                <div className='container-tittle-tour'>
+                    <h2> Sumérgete en la cultura y la <span>aventura</span> </h2>
+                    <p>Descubre el verdadero espíritu de cada destino a través de nuestros tours inolvidables.</p>
+                </div>
+                <div className='container-slide-tour'>
+                    <Swiper
+                        className='swiper'
+                        spaceBetween={40}
+                        loop={true}
+                        breakpoints={{
+                            10: {
+                                slidesPerView: 1,
+                            },
+                            512: {
+                                slidesPerView: 1.5,
+                            },
+                            768: {
+                                slidesPerView: 2.5,
+                            },
+                        }}
+                        modules={[Autoplay, Pagination, Navigation]}
+                    >
+                        {slides.map(({ image, tittle, index }) => (
+                            <SwiperSlide>
+                                <Image width={1600} height={800} quality={100} className='brip-image-tour' src={image} />
+                                {/* <h1 className='brip-tour-tittle'>{tittle}</h1> */}
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
+                </div>
             </div>
         </div>
     )

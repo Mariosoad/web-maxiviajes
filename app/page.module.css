@@ -11,21 +11,30 @@ Verde: #37BF3B
   justify-content: space-between;
   align-items: center; */
   /* padding: 6rem; */
-  margin-top: 100px;
   min-height: 100vh;
   max-width: 100%;
   width: 100%;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   scroll-behavior: smooth;
 
   /* background-color: black;
   color: white; */
 }
 
-@media (max-width: 512px) {
-  .main {
-    margin-top: 120px;
-  }
+.separateContainers {
+  width: 0;
+  height: 0;
+  border-right: 100vw solid transparent;
+  border-top: 4.9vw solid #2F52A3;
+  margin-top: 0vw;
+}
+
+.reverseSeparateContainers {
+  width: 0;
+  height: 0;
+  border-left: 100vw solid transparent;
+  border-bottom: 4.9vw solid #2F52A3;
+  margin-top: 0vw;
 }
 
 .description {

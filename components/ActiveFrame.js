@@ -9,6 +9,7 @@ export default function ActiveFrames() {
     useEffect(() => {
         AOS.init(); 
     }, []);
+    
     return (
         <></>
     )
